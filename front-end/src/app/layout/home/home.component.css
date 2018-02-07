@@ -1,0 +1,72 @@
+/* .mainrow{
+ background-color: peachpuff;  
+ padding: 5px; 
+ height: 40px;
+} */
+
+body {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+}
+ 
+.sidenav a {
+    /* padding: 8px 8px 8px 32px; */
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+} 
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+.blurtranspimg {
+        /* height: 100%;*/
+        background-image: url("/assets/blurtranspimg.jpg");
+        background-size: 100%;
+        position: absolute;
+        z-index: 0px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+
+.profile{
+    border-radius: 50%;
+    height: 88px; 
+    width: 82px;
+    margin: 0 auto;
+    display: block;
+}
+
+.jumbotron{
+    height: 340px;
+    width: 755px;
+}
+
+.grey-back {
+    background-color: #ddd;
+    padding: 10px;
+    margin: 10px;
+    box-shadow:20px 20px 70px grey;  
+}
+
+

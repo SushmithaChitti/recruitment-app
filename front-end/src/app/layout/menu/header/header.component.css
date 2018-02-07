@@ -1,0 +1,11 @@
+.header-light {
+    background-color: #0d95d6;
+}
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+
+.logout {
+    color: #ffffff;
+    font-size: 24px;
+}
